@@ -1,0 +1,62 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Gallery Site</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            .flex-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-basis: auto;
+        }
+        h1 {text-align: center;}
+        .grid-container {
+  display: grid;
+  grid-template-columns: 600px;
+  padding: 10px;
+  justify-content: center;
+}
+.grid-item-actual{
+  background-color: #ff7a7a;
+  padding: 4px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item{
+  font-size:20px;
+  text-align: center;
+  background-color: #f69999;
+  padding: 2px;
+}
+      
+    </style>
+  </head>
+  <body style="background-color:black;">
+        <h1 style="color:greenyellow;">Welcome to My Gallery</h1>  
+        <br>
+        <br>
+        
+        <br>
+        <div class="flex-container">
+          <div><img src="IMG_6490.jpeg" alt="" height="400"></div>
+          <div><img src="IMG_8754.jpeg" alt="" height="400"></div>
+          <div class="grid-container">
+            <br>
+            <div class="grid-item-actual"style="color:antiquewhite">About the Artist</div>
+            <div class="grid-item"style="color:antiquewhite">Ariel Hulfachor is a sculptor and fabricator from Chicago, Illinois. She gets inspiration from classic horror and science fiction movies.</div>
+          </div>
+          <div><video height="450" autoplay muted> <source src="DP7 Finalmp4 copy.mp4" type="video/mp4"></video></div>
+          <div><img src="Screen Shot 2022-10-26 at 2.27.53 PM.jpeg" alt="" width="400"></div>
+          <div><img src="Sun Rubber Plexus movie poster.png" alt=""height="600"></div>
+          <div><img src="two doodles.png" alt=""height="400"></div>
+        </div>
+       
+  </body>
+</html>
